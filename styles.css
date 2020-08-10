@@ -109,7 +109,9 @@ section {
   background-color: var(--purple-transparent);
   z-index: 999;
 }
-
+.header.active {
+  background-color: var(--purple-solid);
+}
 /* Header nav styles */
 .nav {
   display: flex;
